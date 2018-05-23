@@ -85,6 +85,7 @@ img {
 
 .menu-area li.active-li a {
     color: #000;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content .message-area {
@@ -221,6 +222,7 @@ img {
 }
 
 .content .corporate-area {
+    position:  relative;
     margin-top: 700px;
     text-align: center;
 }
@@ -239,11 +241,12 @@ img {
     font-weight: 600;
     letter-spacing:  2px;
     line-height:  28px;
+    font-family: "HiraKakuPro", W3;
 }
 
 .content .corporate-area .corp-info {
     text-align:  left;
-    margin-top:  20px;
+    margin: 20px;
 }
 
 .content .corporate-area .corp-info p {
@@ -263,7 +266,7 @@ img {
     padding: 100px 0 80px 0;
 }
 
-.content .recruit-area p.cm-title {
+.content p.cm-title {
     display:  inline-flex;
     margin-bottom: 70px;
 }
@@ -284,6 +287,7 @@ img {
     letter-spacing: 2px;
     font-size:  17.19pt;
     font-weight:  600;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content .contact-area {
@@ -292,6 +296,7 @@ img {
 
 .content .contact-area p.cm-title {
     margin-bottom: 50px;
+    font-family: "HiraKakuPro", W3;
 }
 
 .contact-area .load-more a {
@@ -343,3 +348,201 @@ footer p {
     text-align:  right;
     padding:  20px 0;
 }
+
+@font-face {
+    font-family: "Font_nihon";
+    src: url("../fonts/hirakakupro.otf") format("opentype");
+   
+}
+
+@media (max-width : 650px) {
+    .container{
+        width: 630px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    header .container{
+        padding: 0;
+        margin: 0;
+    }
+
+    .info-abs p {
+        font-size:  27.73px;
+        letter-spacing: 10px;
+        text-align:  left;
+    }
+
+    .info-abs p:nth-child(2) {
+        font-size:  75.41px;
+        letter-spacing: 24px;
+        display:  inline-block;
+    }
+
+    .info-abs {
+        top: 30%;
+        left: 3%;
+        text-align:  left;
+        position:  absolute;
+    }
+
+    .menu-area li {
+        float:  left;
+        width: 33.3333%;
+        text-align: center;
+        border-bottom: 1px solid #363a3c;
+        height: 60px;
+        line-height: 60px;
+        padding:  0;
+    }
+
+    .menu-area li a {
+        font-size:  27.13px;
+        font-weight: 500;
+    }
+    
+    .content p.cm-title span:nth-child(2) {
+        display:  none;
+    }
+
+    .content p.cm-title {
+        display:  inline-grid;
+        text-align:  center;
+        font-size: 21.97px;
+        margin-bottom: 30px;
+    }
+
+    .content .message-area {
+        text-align:  center;
+        margin-top:  90px;
+    }
+
+    .content p.cm-title span:nth-child(1) {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 51.67px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .content .message-area .mess-info p {
+        font-size:  21.67px;
+        text-align:  left;
+    }
+
+    .content .message-area .mess-info {
+        letter-spacing: 3px;
+        margin: 20px 0;
+        font-family: "HiraKakuPro", W3;
+    }
+
+    .content .business-area p.cm-title {
+        text-align: center;
+        display: inline-grid;
+        font-family: "HiraKakuPro", W3;
+        margin-bottom: 30px;
+    }
+
+    .content .business-area {
+        margin-top:  90px;
+        padding:  0;
+        padding-top: 60px;
+    }
+
+    .content .business-area .busi-info {
+        margin:  20px 0;
+        text-align:  left;
+        font-family: "HiraKakuPro", W3;
+    }
+
+    .content .business-area .busi-info p {
+        font-size:  21.97px;
+    }
+
+    .content .item-detail .oval-rad {
+        width: 170px;
+        height: 170px;
+        line-height: 15px;
+    }
+
+    .content .item-detail img {
+        width:  35px;
+        height:  35px;
+    }
+
+    .content .item-detail {
+        width: 33.33%;
+        height: 300px;
+    }
+
+    .content .item-active {
+        border-left:  0;
+    }
+
+    .bg-img {
+        bottom: -15%;
+    }
+
+    .content .corporate-area {
+        margin-top: 300px;
+    }
+
+    .content .corporate-area p.cm-title {
+        display:  inline-grid;
+        margin-bottom: 0;
+        font-family: "HiraKakuPro", W3;
+    }
+
+    .content .corporate-area p.cm-title {
+        display:  inline-grid;
+        margin-bottom: 0;
+        font-family: "HiraKakuPro", W3;
+    }
+
+    .recruit-area {
+        margin-top:  90px;
+        padding: 40px 0 40px 0;
+    }
+
+    .content .recruit-area .row p {
+        text-align:  left;
+        font-size:  21.67px;
+    }
+
+    .content .recruit-area p {
+        font-family: "HiraKakuPro", W3;
+    }
+    
+    .load-more {
+        display:  inline-block;
+        margin: 40px;
+    }
+
+    .content .contact-area {
+        margin-top:  90px;
+        text-align:  center;
+    }
+
+    .content .contact-area p.cm-title {
+        margin-bottom:  25px;
+    }
+
+    .contact-info {
+        text-align:  left;
+        font-family: "HiraKakuPro", W3;
+    }
+
+    .contact-info p {
+        font-size:  21.76px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+    .contact-info p br {
+        display:  none;
+    }
+
+    footer {
+        margin-top:  90px;
+    }
+}
+
